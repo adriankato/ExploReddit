@@ -5,7 +5,7 @@ DISCOVERED_SUBREDDIT = []
 
 # Insert OAuth2 credentials
 reddit = praw.Reddit(client_id="",
-                    client_secret="M",
+                    client_secret="",
                     username="",
                     password="",
                     user_agent="")

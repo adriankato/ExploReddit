@@ -1,7 +1,5 @@
 import praw
 
-DISCOVERED_SUBREDDIT = []
-
 
 # Insert OAuth2 credentials
 reddit = praw.Reddit(client_id="",
@@ -9,6 +7,8 @@ reddit = praw.Reddit(client_id="",
                     username="",
                     password="",
                     user_agent="")
+
+DISCOVERED_SUBREDDIT = []
 
 def main(): 
     while True:
